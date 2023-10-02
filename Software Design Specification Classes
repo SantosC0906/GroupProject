@@ -98,7 +98,7 @@ Class Operations:
 AddRestaurants()
 DeleteRestaurants()
 AddDiscountCode()
-DeleteDiscoutCode()
+DeleteDiscountCode()
 CancelOrder()
 BanUser()
 TrackDeliveryDriver()

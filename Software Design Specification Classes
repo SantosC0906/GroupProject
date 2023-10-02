@@ -62,7 +62,7 @@ GetPrices()
 AddMenuItem()
 RemoveMenuItem()
 CloseRestaurant()
-OpenRestaurant ()
+OpenRestaurant()
 CancelOrder()
 AcceptOrder()
 
@@ -91,6 +91,7 @@ Control menus on the system
 
 Class Attributes:
 ID: int
+Name: string
 
 
 Class Operations:

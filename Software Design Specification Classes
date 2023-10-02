@@ -1,0 +1,113 @@
+
+Class Name: Registered User
+
+Description of class
+Person using the system
+
+Class attributes
+Name: string 
+ID: int 
+Password: string
+Email: string
+PhoneNum: int
+Address: string
+
+Class operations
+Login() - login into app
+Logout() - logout of app
+PlaceOrder() - place an order
+ViewOrder() - view order
+TrackOrder() - see status of user’s order
+CancelOrder() - cancel user’s current order
+ExpediteOrder() - Ask driver/restaurant to deliver/make food faster
+Payment() - payment of choice
+SelectRestaurant() - select from which restaurant
+
+Class Name: Delivery Driver
+
+Description of Class
+the delivery driver
+
+Class attributes
+Name: string
+ID: int
+Password: string
+Email: string
+PhoneNum: int
+Address: string
+
+Class Operations
+SelectDelivery() - choose which order to fulfill
+ShowProofOfDelivery()
+ViewOrder()
+TrackOrder()
+Payment()
+CancelDelivery() - cancel chosen delivery
+CompletedDelivery() - fulfilled delivery 
+
+Class Name: Restaurant 
+
+Description of Class:
+The specific Restaurant
+
+Class Attributes
+ID: int
+Name: string
+Address: string
+PhoneNum: int 
+
+Class Operations
+GetMenu()
+GetPrices()
+AddMenuItem()
+RemoveMenuItem()
+CloseRestaurant()
+OpenRestaurant ()
+CancelOrder()
+AcceptOrder()
+
+Class Name: Payment
+
+Description of Class:
+The process of paying for user’s order
+
+Class Attributes
+Price: int
+BankInfo: String
+Bank#: int
+
+Class Operations:
+AddCard()
+AddBank()
+ShowPrice()
+GiveReceipt()
+GiveTip()
+
+
+Class Name: Admin
+
+Description of Class: 
+Control menus on the system
+
+Class Attributes:
+ID: int
+
+
+Class Operations:
+AddRestaurants()
+DeleteRestaurants()
+AddDiscountCode()
+DeleteDiscoutCode()
+CancelOrder()
+BanUser()
+TrackDeliveryDriver()
+TrackUser()
+
+
+
+
+
+
+
+
+

@@ -1,10 +1,10 @@
 
 Class Name: Registered User
 
-Description of class
+Description of class:
 Person using the system
 
-Class attributes
+Class attributes:
 Name: string 
 ID: int 
 Password: string
@@ -107,7 +107,24 @@ BanUser()
 TrackDeliveryDriver()
 TrackUser()
 
+Class Name: Make Order
 
+Description of class:
+User makes an order
+
+Class attributes:
+RestaurantName: string
+Time: int
+DeliveryAddress: string
+OrderNum: int
+OderName: string
+OrderDescription: string
+
+Class Operations:
++AddItem()
++RemoveItem()
++SearchItem()
++EditOrder()
 
 
 

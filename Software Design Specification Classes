@@ -22,6 +22,7 @@ CancelOrder() - cancel user’s current order
 ExpediteOrder() - Ask driver/restaurant to deliver/make food faster
 Payment() - payment of choice
 SelectRestaurant() - select from which restaurant
+RateDeliveryDriver() - give delivery driver a review
 
 Class Name: Delivery Driver
 
@@ -91,8 +92,10 @@ Control menus on the system
 
 Class Attributes:
 ID: int
+Password: string
 Name: string
-
+Email: string
+PhoneNum: int
 
 Class Operations:
 AddRestaurants()

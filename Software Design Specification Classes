@@ -39,10 +39,10 @@ Address: string
 
 Class Operations
 SelectDelivery() - choose which order to fulfill
-ShowProofOfDelivery()
-ViewOrder()
-TrackOrder()
-Payment()
+ShowProofOfDelivery() - picture of the food delivered
+ViewOrder() - Ability to view current delivery order
+TrackOrder() - track if restaurants food is ready
+Payment() - payment recieved toward delivery driver (tips)
 CancelDelivery() - cancel chosen delivery
 CompletedDelivery() - fulfilled delivery 
 
@@ -58,19 +58,19 @@ Address: string
 PhoneNum: int 
 
 Class Operations
-GetMenu()
-GetPrices()
-AddMenuItem()
-RemoveMenuItem()
-CloseRestaurant()
-OpenRestaurant()
-CancelOrder()
-AcceptOrder()
+GetMenu() - shows menu of the restaurant 
+GetPrices() - prices of each menu item
+AddMenuItem() - add a menu item
+RemoveMenuItem() - remove menu item
+CloseRestaurant() - closed from taking orders through the app
+OpenRestaurant() - open to take orders on the app
+CancelOrder() - cancel user order
+AcceptOrder() - accept user order
 
 Class Name: Payment
 
 Description of Class:
-The process of paying for user’s order
+The process of paying for a user’s order
 
 Class Attributes
 Price: int
@@ -78,11 +78,11 @@ BankInfo: String
 Bank#: int
 
 Class Operations:
-AddCard()
-AddBank()
-ShowPrice()
-GiveReceipt()
-GiveTip()
+AddCard() - add credit card
+AddBank() - connect bank account
+ShowPrice() - show total cost
+GiveReceipt() - receipt of order and payment
+GiveTip() - added tip
 
 
 Class Name: Admin
@@ -98,14 +98,14 @@ Email: string
 PhoneNum: int
 
 Class Operations:
-AddRestaurants()
-DeleteRestaurants()
-AddDiscountCode()
-DeleteDiscountCode()
-CancelOrder()
-BanUser()
-TrackDeliveryDriver()
-TrackUser()
+AddRestaurants() - add restaurants to app
+DeleteRestaurants() - delete restaurants from app
+AddDiscountCode() - add available discount code
+DeleteDiscountCode() - disable available discount code
+CancelOrder() - cancel confirmed order
+BanUser() - ban user
+TrackDeliveryDriver() - track delivery driver
+TrackUser() - track where user ordered
 
 Class Name: Make Order
 
@@ -121,10 +121,10 @@ OderName: string
 OrderDescription: string
 
 Class Operations:
-+AddItem()
-+RemoveItem()
-+SearchItem()
-+EditOrder()
+AddItem() - add item to order
+RemoveItem() - remove item to order
+SearchItem() - search item for order
+EditOrder() - edit order
 
 
 

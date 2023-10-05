@@ -4,7 +4,7 @@ Food-Thru
 Food delivery APP
 
 by 
-Justin MEndillo
+Justin Mendillo
 Chiewant Reat
 Christopher Santos
 Ravien Gamalinda
